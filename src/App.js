@@ -2,16 +2,16 @@ import React from 'react';
 import './App.css';
 import Hi from './hello';
 
-let App = (name, age) => {
+let App = ({name, age}) => {
 
   return (
-    <div>
+    <div className = "maindiv">
       <strong>This is my first react app and my name is {name} and my age is {age}</strong>
-      </br>
+      <br/><br/>
 
-      </Hi newage = {age}>
-      
-    </div>
+      <Hi newage = {age}/>
+      </div>
+  
   );
 
 }

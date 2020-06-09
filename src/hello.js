@@ -1,9 +1,10 @@
 import React from 'react';
+import './hello.css';
 
-let Hi = (newage) => {
+let Hi = ({newage}) => {
 
     return (
-        <div>
+        <div className = "hdiv">
             This is going to be my new age {newage + 1}
         </div>
 
