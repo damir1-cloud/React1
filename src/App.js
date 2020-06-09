@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Hi from './hello';
 
-function App() {
+let App = (name, age) => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <strong>This is my first react app and my name is {name} and my age is {age}</strong>
+      </br>
+
+      </Hi newage = {age}>
+      
     </div>
   );
+
 }
+
 
 export default App;
