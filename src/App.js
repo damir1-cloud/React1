@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Hi from './hello';
+import MediaCard from './Mastercard';
 
 let App = ({name, age}) => {
 
@@ -10,11 +11,13 @@ let App = ({name, age}) => {
       <br/><br/>
 
       <Hi newage = {age}/>
+      <br/>
+
+      <MediaCard title = "My name is Danyal" body = {<strong>this is the second assignment to test body para</strong>} ImageUrl = {"https://militarywatchmagazine.com/articles/2019/05/19/article_5ce11c405fffa9_11865733.png"}/>
+      
       </div>
   
   );
 
 }
-
-
 export default App;
