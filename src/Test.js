@@ -1,8 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 let Test = () => {
 
-    let [IsLit, SetLit] = React.useState(true);
+    let [IsLit, SetLit] = useState(true);
 
     return (
 
