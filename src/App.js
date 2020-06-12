@@ -14,7 +14,7 @@ let App = ({name, age}) => {
 
       <Hi newage = {age}/>
       <br/>
-      <Gate IsOpen = {false? "open" : "closed"}/>
+      <Gate/>
       <br/>
       <Test/>
       <br/>

@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 let Gate = ({IsOpen}) => {
+    
+    let [IsGate, SetGate] = useState(true);
 
     return (
         <div>
-            The gate is {IsOpen}
+            The gate is {IsGate? "Open" : "Closed"}
+            <br/>
+            <button onClick = {()=> {
+                SetGate(!IsGate);
+            }}>Toggel the gate</button>
         </div>
     );
 }
