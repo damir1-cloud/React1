@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Hi from './hello';
-import MediaCard from './Mastercard';
+import Hi from './test components/hello';
+import MediaCard from './test components/Mastercard';
 import Test from './Test';
-import Gate from './Gate';
+import Gate from './test components/Gate';
 
 let App = ({name, age}) => {
 
@@ -12,7 +12,7 @@ let App = ({name, age}) => {
       <strong>This is my first react app and my name is {name} and my age is {age}</strong>
       <br/><br/>
 
-      <Hi newage = {age}/>
+      <Hi/>
       <br/>
       <Gate/>
       <br/>
