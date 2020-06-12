@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 let Test = () => {
 
-    let [IsLit, SetLit] = useState(true);
+    let [IsLit] = useState(true);
 
     return (
 
