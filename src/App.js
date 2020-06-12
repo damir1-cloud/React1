@@ -5,11 +5,11 @@ import MediaCard from './test components/Mastercard';
 import Test from './Test';
 import Gate from './test components/Gate';
 
-let App = ({name, age}) => {
+let App = ({name}) => {
 
   return (
     <div className = "maindiv">
-      <strong>This is my first react app and my name is {name} and my age is {age}</strong>
+      <strong>This is my first react app and my name is {name} and my age is {23}</strong>
       <br/><br/>
 
       <Hi/>
