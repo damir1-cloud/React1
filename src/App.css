@@ -42,3 +42,14 @@
   font-size: 20px;
   padding-top: 40px;
 }
+
+.room {
+  height: 100%; 
+  width: 100%;   
+}
+
+.dark {
+  height: 100%;
+  background-color: black;
+  color: white;
+}
